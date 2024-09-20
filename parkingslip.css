@@ -1,0 +1,53 @@
+/* Reset some default browser styles */
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/Save-Paper.webp'); /* Add the path to your page background image */
+  background-size: cover;
+  background-position: top; /* Ensure the image is aligned to the top */
+  background-repeat: no-repeat;
+  margin: 0; /* Remove default body margin */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000; /* Set text color for better visibility on the container background */
+}
+
+.data-container {
+  padding: 20px;
+  background-color: rgba(249, 249, 249, 0.8); /* Adjust the alpha value for transparency */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for data items */
+.data-container h2 {
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.data-container p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Additional spacing for better readability */
+.data-container hr {
+  margin: 20px 0;
+}
